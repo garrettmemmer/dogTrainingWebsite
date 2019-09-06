@@ -1,0 +1,14 @@
+h1 {
+   color: red;
+   font-family: verdana;
+   font-size: 300%
+}
+body{
+    background-color: powderblue;
+}
+p{
+    color: green;
+    border: 1px solid palevioletred;
+    border: 2px solid; 
+    margin: 50px;
+}
