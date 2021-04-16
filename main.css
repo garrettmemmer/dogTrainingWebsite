@@ -9,6 +9,12 @@
     color:rgb(255, 10, 10);
 }
 
+.headerLinks{
+    display: inLine;
+}
+
+
+
 /* Page content */
 .content {
     padding: 16px;
@@ -18,7 +24,8 @@
 .sticky {
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    padding: 10px;
   }
 
   /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
