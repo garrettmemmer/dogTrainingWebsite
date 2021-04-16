@@ -2,9 +2,12 @@ var arg = new Vue({
     
 })
 
+
+
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
-
+console.log("here");
 // Get the header
 var header = document.getElementById("myHeader");
 
