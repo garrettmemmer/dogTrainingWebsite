@@ -1,24 +1,13 @@
-var arg = new Vue({
-    
-})
+const menu = document.querySelector('#mobile-menu')
+const menuLinks = document.querySelector('.navbar__menu')
 
-
-
-
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-console.log("here");
-// Get the header
-var header = document.getElementById("myHeader");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
+// display mobile menu (the three lines)
+const mobileMenu = () => {
+  menu.classList.toggle('is-active')
+  menuLinks.classList.toggle('active')
 }
+
+menu.addEventListener('click', mobileMenu)
+
+
+
